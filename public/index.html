@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Band/Project name generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Band Name Generator</h1>
+        <form id="nameGeneratorForm">
+            <label for="userName">Favorite Band or Singer:</label> 
+            <input type="text" id="userName" name="userName" required><br>
+            <label for="question1">Favorite Song:</label>
+            <input type="text" id="question1" name="question1" required><br>
+            <label for="question2">Worst Food:</label>
+            <input type="text" id="question2" name="question2" required><br>
+            <label for="question3">Favorite Season :</label>
+            <input type="text" id="question3" name="question3" required><br>
+            <label for="question4">What Inspires You:</label>
+            <input type="text" id="question4" name="question4" required><br>
+            <label for="question5">Name something overated:</label>
+            <input type="text" id="question5" name="question5" required><br>
+            <button type="submit">Generate Name</button>
+        </form>
+        <h2><span id="userGivenName"></span>The name for you musical project is...</h2>
+        <p id="generatedName"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
